@@ -1,0 +1,29 @@
+# Gleam build artifacts
+build/
+.gleam/
+*.beam
+
+# Erlang
+*.beam
+*.plt
+*.app
+*.appup
+.rebar3/
+ebin/
+_build/
+rel/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
